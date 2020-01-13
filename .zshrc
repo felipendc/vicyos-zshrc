@@ -97,7 +97,7 @@ source $ZSH/oh-my-zsh.sh
 ####   ARCOLINUX SETTINGS   ####
 
 
-#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 setopt GLOB_DOTS
 
@@ -324,4 +324,4 @@ alias reiniciar-o-computador="reboot"
 alias sudo-desligar-o-computador="sudo shutdown now"
 alias desligar-o-computador="shutdown now"
 alias att='sudo pacman -Syu'
-#neofetch
+clear && neofetch
