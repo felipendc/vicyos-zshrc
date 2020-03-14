@@ -327,3 +327,19 @@ alias sudo-desligar-o-computador="sudo shutdown now"
 alias desligar-o-computador="shutdown now"
 alias att='sudo pacman -Syu'
 clear && neofetch
+
+
+############ CCACHE to compile android custom roms! ############
+export USE_CCACHE=1
+export CCACHE_DIR="${HOME}/.ccache"
+export CCACHE_EXEC="$(which ccache)"
+#ccache -M 150G
+
+
+############ My Personal Build Stuff ############
+
+export KBUILD_BUILD_USER="Vicyos"
+export KBUILD_BUILD_HOST="Vicyos"
+#export SELINUX_IGNORE_NEVERALLOWS=true
+export CUSTOM_BUILD_TYPE=OFFICIAL
+#export OPENGAPPS_TYPE=ALPHA
